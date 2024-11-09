@@ -1,6 +1,6 @@
 import React from 'react'
 
-const NavBar = ({showLoginHandler, showRegisterHandler, showLogOut, logOutHandler, showWelcomeHandler }) => {
+const Navbar = ({showLoginHandler, showRegisterHandler, showLogOut, logOutHandler, showWelcomeHandler }) => {
   
   const firmName = localStorage.getItem('firmName')
 
@@ -26,4 +26,4 @@ const NavBar = ({showLoginHandler, showRegisterHandler, showLogOut, logOutHandle
   )
 }
 
-export default NavBar
+export default Navbar

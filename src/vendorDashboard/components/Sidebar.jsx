@@ -1,6 +1,6 @@
 import React from "react";
 
-const SideBar = ({
+const Sidebar = ({
   showFirmHandler,
   showProductHandler,
   showAllProductsHandler,
@@ -18,4 +18,4 @@ const SideBar = ({
   );
 };
 
-export default SideBar;
+export default Sidebar;
